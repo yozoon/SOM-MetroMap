@@ -5,3 +5,7 @@
 ## Prerequisites
 
 After installing the dependencies listed in the _requirements.txt_ file, one also has to install and enable the Plotly Jupyter Lab extensions. For more info see the official [documentation](https://plotly.com/python/getting-started/#jupyterlab-support-python-35). As of the time of writing Plotly does not yet support Jupyter Lab version 3+. We'll update this README once support for version 3+ has arrived in the stable channel.
+
+## Source
+
+[](https://i11www.iti.kit.edu/extra/publications/n-admm-05da.pdf)
