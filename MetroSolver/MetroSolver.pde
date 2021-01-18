@@ -25,9 +25,11 @@ void setup() {
     }
     float dx=0, dy=0;
     while(dx < width/(2*N)) {
+      float phi = (0.5 - noise(off)) * 2*PI;
+      float r = random(width/(1.5*N), 1.5*width/N);
       off += 1;
-      dx = width/N + (0.5 - noise(off)) * width / N;
-      dy = (0.5 - noise(off + 360)) * 2 * height / N;
+      dx = r * cos(phi); //width/N + (0.5 - noise(off)) * width / N;
+      dy = r * sin(phi); //(0.5 - noise(off + 360)) * 2 * height / N;
     }
     x += dx;
     y += dy;
@@ -53,11 +55,11 @@ void draw() {
   fill(0);
   stroke(0);
   // Draw the grid
-  //for(int i = 0; i < N; i++) {
-  //  for(int j = 0; j < N; j++) {
-  //    ellipse(i*width/(N), j*height/(N), 3, 3);
-  //  }
-  //}
+  for(int i = 0; i < N; i++) {
+    for(int j = 0; j < N; j++) {
+      ellipse(i*width/(N), j*height/(N), 3, 3);
+    }
+  }
   // Draw the lines
   for(int i=0; i<vertices.size()-1; i++) {
     // Draw the refined path
