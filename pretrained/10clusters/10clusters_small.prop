@@ -1,0 +1,18 @@
+#10clusters_small prop file
+# somtoolbox [GrowingSOM, --numberWinners, 300, --cpus, 8, 
+#   /Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters/10clusters_small.prop]
+#
+#Sun Jan 31 17:38:33 CET 2021
+workingDirectory=/Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters
+tau=1.0
+templateFileName=/Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters/10clusters.tv
+ySize=20
+learnRate=0.7
+randomSeed=7
+numIterations=1000000
+namePrefix=10clusters_small
+vectorFileName=/Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters/10clusters.vec
+sparseData=no
+outputDirectory=/Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters
+xSize=40
+isNormalized=no

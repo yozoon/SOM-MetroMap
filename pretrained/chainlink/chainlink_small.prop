@@ -1,0 +1,19 @@
+#chainlink_small prop file
+# somtoolbox [GrowingSOM, --numberWinners, 300, --cpus, 8, 
+#   /Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/chainlink/chainlink_small.prop]
+#
+#Sun Jan 31 17:23:39 CET 2021
+sigma=7.0
+workingDirectory=/Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/chainlink
+tau=1.0
+templateFileName=/Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/chainlink/chainlink.tv
+ySize=20
+learnRate=0.7
+randomSeed=7
+numIterations=1000000
+namePrefix=chainlink_small
+vectorFileName=/Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/chainlink/chainlink.vec
+sparseData=no
+outputDirectory=/Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/chainlink
+xSize=40
+isNormalized=no
