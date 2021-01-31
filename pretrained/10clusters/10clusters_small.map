@@ -1,0 +1,37 @@
+$TYPE som
+$GRID_TOPOLOGY planar
+$GRID_LAYOUT rectangular
+$XDIM 40
+$YDIM 20
+$ZDIM 1
+$VEC_DIM 10
+$STORAGE_DATE 31/01/2021, 17:40
+$TRAINING_TIME 
+$LEARNRATE_TYPE exponential
+$LEARNRATE_INIT 0.7
+$NEIGHBORHOOD_TYPE exponential
+$NEIGHBORHOOD_INIT 20.0
+$RAND_INIT 7
+$ITERATIONS_TOTAL 1000000
+$NR_TRAINVEC_TOTAL 850
+$ADAPTIVE_COORDINATES_THRESHOLD 
+$VEC_NORMALIZED false
+$QUANTERROR_MAP <error receiving value: Quality measure with name mqe not found.>
+$QUANTERROR_VEC <error receiving value: Quality measure with name mqe not found.>
+$URL_TRAINING_VEC /Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters/10clusters.vec
+$URL_TRAINING_VEC_DESCR 
+$URL_WEIGHT_VEC /Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters/10clusters_small.wgt
+$URL_QUANTERR_MAP 
+$URL_MAPPED_INPUT_VEC 
+$URL_MAPPED_INPUT_VEC_DESCR 
+$URL_UNIT_DESCR /Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters/10clusters_small.unit
+$URL_TEMPLATE_VECTOR /Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters/10clusters.tv
+$URL_DATA_WINNER_MAPPING /Users/simeonmacke/Uni/20WS/SOS/sos/SOM-MetroMap/pretrained/10clusters/10clusters_small.dwm
+$URL_CLASS_INFO 
+$URL_LABELS 
+$METRIC at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
+$LAYER_REVISION $Revision: 4300 $
+$DESCRIPTION 
+$AVAILABLE_VIS 
+$DATA_TYPE unknown
+$DATA_DIM 
