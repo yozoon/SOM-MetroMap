@@ -1,3 +1,4 @@
+notebook==6.2.0
 ipywidgets==7.4.2
 matplotlib==3.0.2
 MiniSom==2.1.5
