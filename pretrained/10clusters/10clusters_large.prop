@@ -1,0 +1,17 @@
+#10clusters prop file
+# somtoolbox [GrowingSOM, --numberWinners, 300, --cpus, 8, 
+#   /Users/simeonmacke/Uni/20WS/SOS/10clusters.prop]
+#
+#Sun Jan 31 14:46:59 CET 2021
+workingDirectory=/Users/simeonmacke/Uni/20WS/SOS
+tau=1.0
+ySize=60
+learnRate=0.7
+randomSeed=7
+numIterations=100000
+namePrefix=10clusters
+vectorFileName=/Users/simeonmacke/Downloads/10clusters.vec
+sparseData=no
+outputDirectory=/Users/simeonmacke/Uni/20WS/SOS
+xSize=100
+isNormalized=no

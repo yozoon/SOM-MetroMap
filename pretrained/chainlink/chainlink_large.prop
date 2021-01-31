@@ -1,0 +1,19 @@
+#chainlink_large prop file
+# somtoolbox [GrowingSOM, --numberWinners, 300, --cpus, 8, 
+#   /Users/simeonmacke/Uni/20WS/SOS/pretrained/chainlink_large/chainlink_large.prop]
+#
+#Sun Jan 31 15:38:05 CET 2021
+sigma=7.0
+workingDirectory=/Users/simeonmacke/Uni/20WS/SOS/pretrained/chainlink_large
+tau=1.0
+templateFileName=/Users/simeonmacke/Downloads/chainlink.tv
+ySize=60
+learnRate=0.7
+randomSeed=7
+numIterations=100000
+namePrefix=chainlink_large
+vectorFileName=/Users/simeonmacke/Downloads/chainlink.vec
+sparseData=no
+outputDirectory=/Users/simeonmacke/Uni/20WS/SOS/pretrained/chainlink_large
+xSize=100
+isNormalized=no
